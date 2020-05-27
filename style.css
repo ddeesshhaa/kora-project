@@ -1,0 +1,468 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-image: url(photos/headwp.jpg);
+    height: 600px;
+    background-size: cover
+}
+
+.container {
+    margin: auto;
+    padding: 0 50px;
+    overflow: hidden;
+}
+
+hr {
+    width: 50%
+}
+
+
+/* Navigation bar */
+
+.nav {
+    background-color: #28460a;
+    text-align: center
+}
+
+.nav ul {
+    list-style: none;
+    display: inline-block;
+    margin: 10px
+}
+
+.nav ul li {
+    float: left;
+    padding-right: 20px;
+    color: white;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.9
+}
+
+.nav ul li a:hover {
+    color: #fff;
+    opacity: 1
+}
+
+.nav ul li a:active {
+    color: #fff;
+    opacity: 1.0;
+}
+
+
+/* Navigation bar end */
+
+
+/*index page content */
+
+
+/* index videos */
+
+.videos .msg {
+    text-align: center
+}
+
+.videos .container .video1 {
+    width: 45%;
+    float: left
+}
+
+.videos .container .video1 iframe {
+    width: 100%;
+    height: 400px
+}
+
+.videos .container .video2 {
+    width: 45%;
+    float: right
+}
+
+.videos .container .video2 iframe {
+    width: 100%;
+    height: 400px
+}
+
+
+/* index videos end */
+
+
+/* players-of-the-week */
+
+.welcome {
+    text-align: center
+}
+
+.players-of-the-week {
+    text-align: center
+}
+
+.players-of-the-week img {
+    height: 300px;
+    padding-bottom: 20px;
+    min-width: 300px;
+}
+
+.player1 {
+    float: left;
+    width: 50%
+}
+
+.player1 a,
+.player2 a {
+    text-decoration: none;
+    color: #28460a;
+    opacity: 0.9;
+}
+
+.player1 a:hover,
+.player2 a:hover {
+    text-decoration: none;
+    color: #28460a;
+    opacity: 1.0;
+}
+
+.player2 {
+    float: right;
+    width: 50%
+}
+
+
+/* players-of-the-week end */
+
+
+/* footer */
+
+.footer {
+    background-color: #28460a;
+    overflow: hidden;
+    margin-top: 50px
+}
+
+.footer p {
+    float: right;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.logo {
+    float: left;
+    margin: 5px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+
+/* footer end */
+
+
+/* news */
+
+.new1,
+.new2,
+.new3,
+.new4,
+.new5,
+.new6 {
+    text-align: center;
+    width: 80%;
+    padding: auto;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.new1 p,
+.new3 p,
+.new5 p {
+    float: left;
+    width: 60%;
+    color: #28460a;
+    margin-left: 10px;
+}
+
+.new1 img,
+.new3 img,
+.new5 img {
+    float: right;
+    width: 300px;
+    margin: 0;
+}
+
+.new2 p,
+.new4 p,
+.new6 p {
+    float: right;
+    width: 60%;
+    color: #28460a;
+    margin-left: 10px;
+}
+
+.new2 img,
+.new4 img,
+.new6 img {
+    float: left;
+    width: 300px;
+    margin: 0;
+}
+
+.news h3 {
+    text-align: center;
+    color: #28460a;
+}
+
+
+/* news end */
+
+
+/* teams */
+
+.teams-table {
+    text-align: center;
+    margin-top: 20px;
+    width: 60%;
+    padding: auto;
+    margin: auto;
+}
+
+.teams-table h2 {
+    color: #28460a;
+}
+
+.teams-table table,
+.teams-table th,
+.teams-table td {
+    border: 3px solid #28460a;
+    color: #28460a;
+    border-collapse: collapse;
+    width: 50%
+}
+
+.teams-table table tr {
+    text-align: center;
+}
+
+
+/* teams end */
+
+
+/* matches */
+
+.matches h2 {
+    text-align: center;
+    color: #28460a;
+}
+
+.table-of-matches table,
+.table-of-matches th,
+.table-of-matches td {
+    border: 3px solid #28460a;
+    color: #28460a;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-of-matches td.id {
+    width: 5%;
+}
+
+.table-of-matches td.team {
+    width: 35%;
+}
+
+.table-of-matches td.score {
+    width: 5%;
+}
+
+.table-of-matches td.watch {
+    width: 5%;
+}
+
+.table-of-matches tr {
+    height: 100px;
+}
+
+.table-of-matches th {
+    font-size: 150%;
+}
+
+
+/* matches end */
+
+
+/* players */
+
+.players-page {
+    text-align: center;
+}
+
+.playerno1,
+.playerno2,
+.playerno3 {
+    overflow: hidden;
+    width: 80%;
+    padding: auto;
+    margin: auto;
+}
+
+.playerno1 h3,
+.playerno2 h3,
+.playerno3 h3 {
+    text-align: center;
+}
+
+.playerno1 p,
+.playerno2 p,
+.playerno3 p {
+    float: left;
+    margin-left: 20px;
+    width: 60%;
+    text-align: left;
+}
+
+.playerno1 img,
+.playerno2 img,
+.playerno3 img {
+    float: right;
+    width: 300px;
+}
+
+.watchpage h2,
+.watchpage p {
+    color: #28460a
+}
+
+
+/* players end */
+
+
+/* gallery */
+
+.gallery {
+    text-align: center;
+    overflow: hidden;
+}
+
+.gallery h2 {
+    color: #28460a;
+}
+
+.photos img {
+    width: 40%;
+    height: 300px;
+    margin: 10px;
+    min-width: 300px;
+}
+
+
+/* Subscribe */
+
+
+/* Full-width input fields */
+
+label {
+    color: #28460a;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+    color: #28460a;
+}
+
+input[type=password] {
+    display: inline-block
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #28460a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+/* Extra styles for the cancel button */
+
+.container_form .cancelbtn {
+    background-color: #28460a;
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+
+/* Add padding to container elements */
+
+.container_form {
+    padding: 0 100px 70px 100px
+}
+
+.container_form h1,
+.container_form p {
+    text-align: center;
+    color: #28460a;
+}
+
+
+/* Clear floats */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}
+
+
+/* EO Subscribe */
